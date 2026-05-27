@@ -39,13 +39,9 @@ JPMorgan Chase, Bank of America, Wells Fargo, Citibank, Goldman Sachs, Morgan St
 fdic-banking-analysis/
 │
 ├── README.md
-├── notebooks/
 │   └── FDIC_Analysis.ipynb        # Full Colab notebook
-├── data/
 │   └── bank_data_final.csv        # Cleaned, analysis-ready dataset
-├── visuals/
 │   └── bank_analysis.png          # Output charts
-└── sql/
     └── bank_query.sql             # DuckDB query used for final cleaning
 ```
 
@@ -53,11 +49,11 @@ fdic-banking-analysis/
 
 ## Visualizations
 
-![Bank Analysis Chart](visuals/bank_analysis.png)
+![Bank Analysis Chart](Bank_Analysis_Dashboard.png)
 
 Three charts produced:
 
-1. **Annual Net Income by Bank** — Line chart comparing all 10 banks from 2015–2024
+1. **Annual Net Income by Bank** — Line chart comparing all 10 banks from 2015–2025
 2. **Avg Net Interest Margin vs Federal Funds Rate** — Dual-axis bar/line chart showing the NIM-rate relationship
 3. **Return on Equity (ROE) by Bank** — Line chart tracking profitability over time
 
